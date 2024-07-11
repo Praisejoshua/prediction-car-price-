@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.mov filter=lfs diff=lfs merge=lfs -text
+bin/Random[[:space:]]forest[[:space:]]classifer filter=lfs diff=lfs merge=lfs -text
+model/Random[[:space:]]Forest[[:space:]]Regressor filter=lfs diff=lfs merge=lfs -text
+models/Random[[:space:]]Forest[[:space:]]Regressor filter=lfs diff=lfs merge=lfs -text
